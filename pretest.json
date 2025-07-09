@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Five volts is applied to two 2 ohm resistors in series. The resulting current is",
+      "answers": {
+        "a": "5 A",
+        "b": "1 A",
+        "c": "2.5 A",
+        "d": "1.25 A"
+      },
+      "explanations": {
+        "a": "Too high; would require only 1Ω of total resistance.",
+        "b": "Too low; total resistance is 4Ω, so I = 5/4.",
+        "c": "Too high; recheck resistance and Ohm’s law.",
+        "d": "Correct. Total resistance = 2Ω + 2Ω = 4Ω; I = 5/4 = 1.25 A."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Five volts is applied to two 2 ohm resistors connected in parallel. The resulting current is",
+      "answers": {
+        "a": "2.5 A",
+        "b": "1.25 A",
+        "c": "1 A",
+        "d": "5 A"
+      },
+      "explanations": {
+        "a": "Incorrect; underestimates current. Total R = 1Ω.",
+        "b": "Incorrect; this is for series configuration.",
+        "c": "Incorrect; check parallel resistance.",
+        "d": "Correct. Parallel resistance = 1Ω; I = 5/1 = 5 A."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

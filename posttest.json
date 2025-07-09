@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Six volts is applied to a 2 ohm resistor in series with two 2 ohm resistors connected in parallel. The current through the first resistor is",
+      "answers": {
+        "a": "0.5 A",
+        "b": "3 A",
+        "c": "2 A",
+        "d": "1 A"
+      },
+      "explanations": {
+        "a": "Too low; I = 6/3 = 2 A.",
+        "b": "Too high; check total resistance.",
+        "c": "Correct. Parallel of 2Ω and 2Ω = 1Ω; total R = 2Ω + 1Ω = 3Ω; I = 6/3 = 2 A.",
+        "d": "Too low; underestimates current."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which circuit law states that the sum of all currents into and out of a node equals zero?",
+      "answers": {
+        "a": "Chebyshev's Current Law.",
+        "b": "Kirchhoff's Current Law.",
+        "c": "Norton's Current Law.",
+        "d": "Lenz's Current Law."
+      },
+      "explanations": {
+        "a": "Incorrect. Chebyshev’s theorem relates to approximation theory.",
+        "b": "Correct. Kirchhoff's Current Law (KCL) applies at nodes.",
+        "c": "Incorrect. Norton’s theorem relates to equivalent circuits.",
+        "d": "Incorrect. Lenz’s law relates to electromagnetic induction."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "__________ carries negative charge and ____________ carries positive charge.",
+      "answers": {
+        "a": "electron, proton",
+        "b": "proton, electron",
+        "c": "neutron, electron",
+        "d": "proton, neutron"
+      },
+      "explanations": {
+        "a": "Correct. Electrons are negatively charged, protons are positively charged.",
+        "b": "Incorrect. The charges are reversed.",
+        "c": "Incorrect. Neutron is neutral.",
+        "d": "Incorrect. Neutrons are neutral; protons are positive."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
