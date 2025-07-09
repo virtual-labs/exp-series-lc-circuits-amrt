@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Five volts is applied to two 2 ohm resistors in series. The resulting current is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "5 A",
+        "b": "1 A",
+        "c": "2.5 A",
+        "d": "1.25 A"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Too high; would require only 1Ω of total resistance.",
+        "b": "Too low; total resistance is 4Ω, so I = 5/4.",
+        "c": "Too high; recheck resistance and Ohm’s law.",
+        "d": "Correct. Total resistance = 2Ω + 2Ω = 4Ω; I = 5/4 = 1.25 A."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Five volts is applied to two 2 ohm resistors connected in parallel. The resulting current is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2.5 A",
+        "b": "1.25 A",
+        "c": "1 A",
+        "d": "5 A"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect; underestimates current. Total R = 1Ω.",
+        "b": "Incorrect; this is for series configuration.",
+        "c": "Incorrect; check parallel resistance.",
+        "d": "Correct. Parallel resistance = 1Ω; I = 5/1 = 5 A."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
